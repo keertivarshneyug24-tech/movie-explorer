@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel = "stylesheet" href = "login.css"/>
+</head>
+<body>
+    <h1><center>Sign in to your account!</center></h1>
+    <div id = "container">
+    <div id = "login_form">
+    <form id = "signin-form" onsubmit = "handleSignin(event)">
+        <div class = "emailid">
+            <p>ENTER EMAIL ID</p>
+            <input type = "text" placeholder = "email"  id  = "signin-email">
+
+        </div>
+        <div class = "username">
+            <p>USERNAME</p>
+            <input type = "text" placeholder = "userinfo1"  id = "signin-username">
+        </div>
+        <div class = "password">
+            <p>PASSWORD</p>
+           <input type = "text" placeholder = "userinfo2"  id = "signin-password">
+        </div><br><br>
+        <label>
+            <input type = "checkbox" value = "check" id = "check">Confirm You are a human.
+        </label><br><br>
+        <button type="submit" id="submit">Let's get started</button>
+    </form>
+</div>
+</div>
+       <!-- <div id = "submit"> <a href="index.html" class="btn">Let's get started</a></div> -->
+       <script src = "movie.js"></script>
+</body>
+</html>

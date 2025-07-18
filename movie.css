@@ -1,0 +1,293 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border:border-box; */
+}
+select{
+    width: 100px;
+}
+.navbar{
+    height: 80px;
+    background-color: black; 
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+}
+#user-profile{
+    height: 70px;
+    width: 70px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url("human2.jpg");
+    background-size: cover;
+}
+#user-profile:active{
+    border: 3px solid rgb(249, 216, 28);
+}
+#logo{
+    height: 70px;
+    width: 130px;
+    border: 4px solid rgb(249, 216, 28);
+    border-radius: 10px;
+    background-image: url("symbol.png");
+    background-size: cover;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+}
+#menu i {
+    font-size: 30px;
+    position: relative;
+    right: 5.5px;
+}
+#menu p{
+    font-size: 20px;
+}
+#Bigbox{
+    display: flex;
+    width: 625px;
+    height: 40px;
+    background-color: rgb(29, 19, 110);
+    /* border: 4px soild rgb(249, 216, 28) ; */
+    border-radius: 4px;
+    justify-content: space-evenly; 
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 3px solid rgb(86, 24, 209);
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.SearchMovie{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+#Bigbox:hover{
+    border: 3px solid orange;
+}
+
+.search-button{
+    display: flex;
+    width:45px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 205, 40);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius:4px ;
+    color:black;
+    font-size: 25px;
+}
+.search-button:active{
+    border: 5px solid brown;
+    background-color: rgb(138, 114, 62);
+
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background-color: black;
+}
+.watch i{
+    font-size: 20px;
+    position: relative;
+    left: 3px;
+}
+.watch select{
+    background-color: black;
+    color: aliceblue;
+    border: 3px solid black;
+}
+a{
+    text-decoration: none;
+    color: #f3f3f3;
+}
+a:active{
+    color: #ff0000;
+}
+body{
+    background-image: url("pattern2.avif");
+    background-size: cover;
+}
+.oneMovie{
+    width: 80rem;
+    height: 50rem;
+    background-image: url("justice.jpg");
+    background-size: cover;
+}
+.someText{
+    width: 80rem;
+    height: 15rem;
+    font-size:40px;
+    font-weight:bold;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    animation: somedecor 2s ease-in infinite alternate;
+}
+.someText p{
+    position: relative;
+    top:50px;
+}
+.movieGrid {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0 1rem;
+}
+.movie-card {
+  display: inline-block;
+  border: 1px solid black;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.2s ease-in;
+}
+.movie-card img{
+    width: 100%;
+    height: 16rem;
+    border-radius: 6px;
+}
+.movie-card h3{
+    width:100%;
+    height: 2rem;
+}
+.info{
+    width:19.5rem;
+    height: 8rem;
+    background-color: burlywood;
+    border-radius: 8px;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 2.6rem;
+    border-bottom: 1px solid black; 
+}
+#synopsis{
+    position: relative;
+    right: 19px;
+}
+#cast{
+    position: relative;
+    left: 15px;
+}
+#reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 2.6rem;
+    border-bottom: 1px solid black; 
+}
+#watchplz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 2.6rem;
+    border-bottom: 1px solid black; 
+}
+#top{
+    background-color: rgb(248, 213, 39);
+    color: black;
+    width: 100px;
+    height: 40px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    
+}
+#add{
+    background-color: rgb(248, 213, 39);
+    color: black;
+    width: 100px;
+    height: 40px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    
+}
+@keyframes somedecor{
+    from{
+        color:rgb(168, 218, 220);
+    }
+    to{
+        color: rgb(230, 57, 70);
+       
+    }
+}
+
+.last{
+    
+    background-color: rgb(61, 60, 60);
+    height:180px;
+    position: relative;
+    top: 100px;
+
+}
+#image{
+    text-align: center;
+    height: 50px;
+    width: 80px;
+    background-color: rgb(248, 213, 39);
+    color: black ;
+    border: 3px solid orange;
+    border-radius: 10px;
+    font-weight:bold;
+    font-size: 2rem;
+    position: relative;
+    top: 15px;
+}
+.last{
+    text-align: center;
+}
+#lastText{
+    color: white;
+}
+.menudetails{
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border:2px solid white;
+}
+#watchlist{
+    border: 2px solid white;
+    width: 60px;
+    height: 30px;
+    position: relative;
+    left: 4px;
+}
+#watchlist:hover{
+    border: 2px solid orange;
+}
+.menudetails:hover{
+    border: 2px solid orange;
+}
+
+
+
+

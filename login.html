@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel = "stylesheet" href = "login.css"/>
+</head>
+<body>
+    <h1><center>Log in to your account!</center></h1>
+    <div id = "container">
+    <div id = "login_form">
+    <form  onsubmit = "handleLogin(event)" id = "login-form">
+        <div class = "username">
+            <p>USERNAME</p>
+            <input type = "text" placeholder = "userinfo1" id = "login-username" required>
+        </div>
+        <div class = "password">
+            <p>PASSWORD</p>
+           <input type = "password" placeholder = "userinfo2"  id = "login-password" required>
+        </div><br><br>
+        <label>
+            <input type = "checkbox" value = "check"  id = "check" required/> Confirm You are a human.
+        </label><br><br>
+        <button type="submit" id="submit">Let's get started</button>
+       
+        <!-- <div class = "loginsub"><button type="submit" id="submit">Let's get started</button></div> -->
+        
+       
+        
+    </form>
+   
+ </div>
+</div>
+
+<!-- <a href="index.html" class="btn" -->
+ <!-- <div id = "submit"> Let's get started</a></div> -->
+
+       <script src = "movie.js"></script>
+</body>
+</html>
