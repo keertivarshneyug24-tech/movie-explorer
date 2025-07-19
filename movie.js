@@ -19,7 +19,7 @@ async function  displayMovie(data){
             const card = document.createElement("div");
             card.classList.add("movie-card");
             
-            let poster = `http://img.omdbapi.com/?apikey=${API_KEY}&i=${movie.imdbID}`;
+            let poster = `https://img.omdbapi.com/?apikey=${API_KEY}&i=${movie.imdbID}`;
 
             const isValid = await validateImgUrl(poster);
             if(!isValid){
@@ -67,7 +67,7 @@ async function displaySingleMovie(imdbID){
     try{
         let response = await fetch(url);
         let movie = await response.json();
-        let poster = `http://img.omdbapi.com/?apikey=${API_KEY}&i=${movie.imdbID}`;
+        let poster = `https://img.omdbapi.com/?apikey=${API_KEY}&i=${movie.imdbID}`;
         const isValid = await validateImgUrl(poster);
             if(!isValid){
                 poster = placeholder;
