@@ -8,7 +8,6 @@ body{
     align-items: center;
 }
 #submit{
-
   display: inline-block; 
   padding: 10px 20px;
   background-color: orange;
@@ -16,11 +15,7 @@ body{
   text-decoration: none;
   border: 2px solid brown;
   border-radius: 8px;
-  
   font-size: 16px;
-   /* position: relative;
-    top: 25px;
-    left: 560px; */
 }
 #login_form{
     display: flex;
@@ -32,11 +27,6 @@ body{
     border-radius: 10px;
     background-color: bisque;
 }
-/* #submit{
-    position: relative;
-    top: 25px;
-    left: 560px;
-} */
 .loginsub{
     display: flex;
     justify-content: center;

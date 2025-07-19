@@ -1,7 +1,6 @@
 *{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    /* border:border-box; */
 }
 select{
     width: 100px;
@@ -53,7 +52,6 @@ select{
     width: 625px;
     height: 40px;
     background-color: rgb(29, 19, 110);
-    /* border: 4px soild rgb(249, 216, 28) ; */
     border-radius: 4px;
     justify-content: space-evenly; 
 }
@@ -79,7 +77,6 @@ select{
 #Bigbox:hover{
     border: 3px solid orange;
 }
-
 .search-button{
     display: flex;
     width:45px;
@@ -94,7 +91,6 @@ select{
 .search-button:active{
     border: 5px solid brown;
     background-color: rgb(138, 114, 62);
-
 }
 .watch{
     display: flex;
@@ -219,7 +215,6 @@ body{
     height: 40px;
     border: 3px solid brown;
     border-radius: 10px;
-    
 }
 #add{
     background-color: rgb(248, 213, 39);
@@ -228,7 +223,6 @@ body{
     height: 40px;
     border: 3px solid brown;
     border-radius: 10px;
-    
 }
 @keyframes somedecor{
     from{
@@ -239,14 +233,12 @@ body{
        
     }
 }
-
 .last{
     
     background-color: rgb(61, 60, 60);
     height:180px;
     position: relative;
     top: 100px;
-
 }
 #image{
     text-align: center;
